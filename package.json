@@ -1,0 +1,21 @@
+{
+  "name": "discord-vip-bot",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "add-commands": "node src/register-slash-commands.js",
+    "bot": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "author": "alta",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "discord.js": "^14.16.3",
+    "dotenv": "^16.4.7",
+    "jsdom": "^25.0.1",
+    "nodemon": "^3.1.9"
+  },
+  "type": "module"
+}
